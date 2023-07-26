@@ -1,0 +1,35 @@
+/*base*/
+
+:root {
+    --base-font: "Lato", sans-serif;
+    --alt-font: "MontserratAlternates", sans-serif;
+    --content-width: 1890px;
+    --content-sm-width: 1140px;
+    --content-fluid-width: 1720px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    --container-sm-width: calc(var(--content-sm-width) + (var(--container-offset) * 2));
+    --container-fluid-width: var(--content-fluid-width);
+}
+
+/* color palette */
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --success: #4caf50;
+    --gray: #dedede;
+    --gray-2: #f5f5f5;
+    --gray-6: #757575;
+    --gray-7: #666666;
+
+    --color-text: var(--black);
+    --color-background: var(--gray-2);
+}
+
+/* transitions */
+:root {
+    --main-transition: .25s ease-in;
+}
+
+
